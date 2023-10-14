@@ -40,6 +40,8 @@ Ref: [Get started using Visual Studio Code with Windows Subsystem for Linux](htt
 ```
 $ git config --global user.name "tneish"
 
+$ git config --global user.email "user@domain.com"
+
 $ git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential
 -manager.exe"
 
