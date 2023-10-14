@@ -38,7 +38,7 @@ Ref: [Get started using Visual Studio Code with Windows Subsystem for Linux](htt
 ## 2.3. Setup git in WSL
 
 ```
-$ git config --global user.name "tneish"
+$ git config --global user.name "user"
 
 $ git config --global user.email "user@domain.com"
 
