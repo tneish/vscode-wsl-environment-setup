@@ -1,4 +1,6 @@
-Reference to create VSCode (win) environment connected to WSL with USB/IP connectivity
+Reference to create VSCode (win) environment connected to WSL with added USB sharing.
+
+**Table of Contents**
 
 - [1. Install WSL distro](#1-install-wsl-distro)
 - [2. Setup VS Code](#2-setup-vs-code)
@@ -10,8 +12,8 @@ Reference to create VSCode (win) environment connected to WSL with USB/IP connec
   - [3.2. Setup USB-IP in WSL](#32-setup-usb-ip-in-wsl)
   - [3.3. Add user to dialout group](#33-add-user-to-dialout-group)
   - [3.4. Share USB device with WSL](#34-share-usb-device-with-wsl)
-- [Get Started](#get-started)
-- [4. References](#4-references)
+- [4. Get Started](#4-get-started)
+- [5. References](#5-references)
 
 
 # 1. Install WSL distro
@@ -88,7 +90,7 @@ $ lsusb | grep CP210
 Bus 001 Device 002: ID 10c4:ea60 Silicon Labs CP210x UART Bridge
 ```
 
-# Get Started
+# 4. Get Started
 
 1. Open VS Code.
 2. Connect to WSL.
@@ -101,7 +103,7 @@ Bus 001 Device 002: ID 10c4:ea60 Silicon Labs CP210x UART Bridge
 ![Screenshot of VS Code showing WSL is connected](screenshot-vscode-WSL-connected.png)
 
 
-# 4. References
+# 5. References
 
 - [Setup WSL](https://learn.microsoft.com/en-us/windows/wsl/setup/environment)
 - [Connecting USB devices to WSL](https://devblogs.microsoft.com/commandline/connecting-usb-devices-to-wsl/)
