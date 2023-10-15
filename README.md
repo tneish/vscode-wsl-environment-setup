@@ -6,7 +6,8 @@ Reference to create VSCode (win) environment connected to WSL with added USB sha
 - [2. Setup VS Code](#2-setup-vs-code)
   - [2.1. Install VS Code in Windows](#21-install-vs-code-in-windows)
   - [2.2. Install VS Code Remote Development extension pack](#22-install-vs-code-remote-development-extension-pack)
-  - [2.3. Setup git in WSL](#23-setup-git-in-wsl)
+  - [2.3. Install Dev Containers](#23-install-dev-containers)
+  - [2.4. Setup git in WSL](#24-setup-git-in-wsl)
 - [3. Setup USB Sharing](#3-setup-usb-sharing)
   - [3.1. Install usbipd-win](#31-install-usbipd-win)
   - [3.2. Setup USB-IP in WSL](#32-setup-usb-ip-in-wsl)
@@ -35,7 +36,15 @@ This extension pack includes the WSL extension, enabling you to open any folder 
 
 Ref: [Get started using Visual Studio Code with Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-vscode)
 
-## 2.3. Setup git in WSL
+## 2.3. Install Dev Containers
+
+- [VS Code Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+Dev Containers are used so any tooling/compilers/debuggers and other dependencies are defined in a manifest, able to be recreated anytime and anywhere the project is developed.
+
+Ref: [Dev Containers tutorial](https://code.visualstudio.com/docs/devcontainers/tutorial)
+
+## 2.4. Setup git in WSL
 
 ```
 $ git config --global user.name "user"
@@ -111,4 +120,5 @@ Bus 001 Device 002: ID 10c4:ea60 Silicon Labs CP210x UART Bridge
 - [Connecting USB devices to WSL](https://devblogs.microsoft.com/commandline/connecting-usb-devices-to-wsl/)
 - [usbipd-win project on Github](https://github.com/dorssel/usbipd-win)
 - [usbipd-win WSL support wiki](https://github.com/dorssel/usbipd-win/wiki/WSL-support)
+- [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
 
